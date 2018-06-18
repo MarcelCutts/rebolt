@@ -121,6 +121,6 @@ AppRegistry.registerComponent('MyReasonReactNativeApp', () => app);
 
 7. You can run your app now:
 
-Run in one tab of your terminal `yarn run watch` to compile the ReasonML code,
+Run in one tab of your terminal `yarn watch` to compile the ReasonML code,
 and in the other start the React Native app in the simulator `react-native run-ios`
 
