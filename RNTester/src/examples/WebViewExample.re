@@ -1,6 +1,10 @@
 open Rebolt;
 
+open Utils;
+
 let title = "<WebView>";
+
+let exampleType = Multiple;
 
 let description = "Simple React Native WebView.";
 
@@ -20,7 +24,7 @@ let examples: array(Example.t) =
             )>
             <WebView style=(style([height(Pt(400.))])) source />
           </View>;
-        },
-      },
+        }
+      }
     |]
   );
